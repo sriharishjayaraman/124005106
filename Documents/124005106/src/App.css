@@ -6,6 +6,32 @@
   height: 40vmin;
   pointer-events: none;
 }
+.heading{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.content{
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin: 50px;
+  height: 200px;
+ 
+}
+.column {
+  justify-content: space-around;
+  display: flex;
+  padding: 10px;
+  height: 300px; 
+}
+
+.row:after {
+  content: "";
+  clear: both;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

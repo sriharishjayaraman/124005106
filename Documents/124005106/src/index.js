@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
+import Newpage from "./newpage";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -11,6 +12,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<App />}></Route>
+        <Route exact path="/view" element={<Newpage />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
